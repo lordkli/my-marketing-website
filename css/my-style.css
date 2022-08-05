@@ -1,0 +1,66 @@
+.bg-darkblue {
+  background-color: #073b4c;
+}
+.rounded-pill-top {
+  border-radius: 3rem !important;
+}
+.top-space {
+  padding: 2% 10%;
+}
+/* I can use existing bootstrap class and override it
+  Here I am using navbar-brand to override some styles of the E-mail text
+  fond-family: ubuntu; this is coming from google fonts
+  */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3em;
+  font-weight: bold;
+  padding-left: 1%;
+}
+
+/* @media  is used to put screen size condition
+screen size is smal then rotate 0
+screen size is bigger then small rotate 25 */
+@media (min-width: 786px) {
+  .img1 {
+    transform: rotate(25deg);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .img1 {
+    transform: rotate(0deg);
+    margin: 5%;
+    width: 90%;
+  }
+}
+.slogan {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 10%;
+}
+.download-links {
+  margin-left: 10%;
+  justify-content: left;
+  display: flex;
+  /* text-align: center; */
+}
+.fa-solid {
+  color: #ffd166;
+  margin-top: 10%;
+}
+.img2 {
+  width: 10%;
+}
+.rounded-circle {
+  width: 13%;
+}
+.comment {
+  padding: 15%;
+}
+.comment p {
+  font-size: 1.5em;
+}

@@ -1,0 +1,61 @@
+.bg-dark-blue {
+  background-color: #073b4c;
+}
+.top-space {
+  padding: 4% 10%;
+}
+/* I can use existing bootstrap class and
+override it
+Here I am using navbar-brand to everride some styles of the E-mail text
+font-family: ubuntu; this is coming from google fonts
+ */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2em;
+}
+/* @media is used to put screen size condition 
+screen size is small then rotate 0 -> 768
+screen size is bigger than small rotate 25
+@media(min-width: 768px) MEANS apply the condition for screens that is bigger that 768px*/
+@media (min-width: 768px) {
+  .img1 {
+    transform: rotate(25deg);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .img1 {
+    transform: rotate(0deg);
+    margin: 5%;
+    width: 90%;
+  }
+}
+.slogan {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  line-height: 1.5;
+  margin: 10%;
+}
+.download-links {
+  margin-left: 20%;
+  justify-content: end;
+  display: flex;
+  /* text-align: center;         */
+}
+.fa-solid {
+  color: gold;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.img2 {
+  width: 10%;
+}
+.comment {
+  padding: 15%;
+}
+.comment p {
+  font-size: 1.5em;
+}
