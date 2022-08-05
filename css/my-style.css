@@ -64,3 +64,18 @@ screen size is bigger then small rotate 25 */
 .comment p {
   font-size: 1.5em;
 }
+.pricing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer{
+  color: white;
+  background-color: gray;
+  padding: 30px;
+}
+.copyright{
+  margin-left: 70%;
+  font-size: 20px;
+  position: relative;
+}
+
